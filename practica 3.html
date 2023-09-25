@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Artículos Electrónicos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"
+
+    <title>Palomo Bellator</title>
     <style>
         body {
             background-image: url('paisaje.jpg');
@@ -36,22 +38,44 @@
         <h1>Bienvenido a la Tienda de Artículos Electrónicos</h1>
     </header>
     <main>
-        <div class="productos">
-            <div class="producto">
-                <img src="LAPTOPP.jpg" alt="Producto 1">
-                <h2>Producto 1</h2>
-                <p>Precio: $500</p>
+        <div class="container">
+            <div class="row">
+        
+              <div class="col-md-4">
+                <div class="card producto">
+                  <img class="card-img-top" src="LAPTOPP.jpg" alt="Laptop">
+                  <div class="card-body">
+                    <h5 class="card-title">Laptop</h5>
+                    <p class="card-text">$500</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card producto">
+                  <img class="card-img-top" src="tablet.jpg" alt="Tablet">
+                  <div class="card-body">
+                    <h5 class="card-title">Tablet</h5>
+                    <p class="card-text">$600</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card producto">
+                  <img class="card-img-top" src="audifonos.jpg" alt="Audifonos">
+                  <div class="card-body">
+                    <h5 class="card-title">Audifonos</h5>
+                    <p class="card-text">$80</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>  
+                  </div>
+                </div>
+              </div>
+        
             </div>
-            <div class="producto">
-                <img src="TABLET.jpg" alt="Producto 2">
-                <h2>Producto 2</h2>
-                <p>Precio: $600</p>
-            </div>
-            <div class="producto">
-                <img src="AUDIFONOS.jpg" alt="Producto 3">
-                <h2>Producto 3</h2>
-                <p>Precio: $80</p>
-            </div>
+          </div>
         </div>
         <button><a href="otros-productos.pdf" download>Descargar otros productos</a></button>
     </main>
