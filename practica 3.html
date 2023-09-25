@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Artículos Electrónicos</title>
+    <style>
+        body {
+            background-image: url('paisaje.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .producto {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .producto img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Tienda de Artículos Electrónicos</h1>
+    </header>
+    <main>
+        <div class="productos">
+            <div class="producto">
+                <img src="LAPTOPP.jpg" alt="Producto 1">
+                <h2>Producto 1</h2>
+                <p>Precio: $500</p>
+            </div>
+            <div class="producto">
+                <img src="TABLET.jpg" alt="Producto 2">
+                <h2>Producto 2</h2>
+                <p>Precio: $600</p>
+            </div>
+            <div class="producto">
+                <img src="AUDIFONOS.jpg" alt="Producto 3">
+                <h2>Producto 3</h2>
+                <p>Precio: $80</p>
+            </div>
+        </div>
+        <button><a href="otros-productos.pdf" download>Descargar otros productos</a></button>
+    </main>
+</body>
+</html>
